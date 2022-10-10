@@ -1,25 +1,104 @@
 body{
     background-color: rgb(32, 0, 58);
 }
-.buttondiv{
-position: absolute;
-top: 400px;
-left: 650px;
-}
 .btn{
-background:transparent;
-width: 150px;
-height: 80px;
-border-color: rgb(238, 255, 0);  
-color: rgb(238, 255, 0);  
+    position:absolute;
+    top: 400px;
+    left: 650px;
+    width: 150px;
+    height: 80px;
+    background:transparent;
+    border-color: rgb(238, 255, 0);  
+    color: rgb(238, 255, 0);  
+    transition: top 1s;
 }
 .btn:hover{
-    box-shadow: 20px 10px 20px 10px;
-    position: absolute;
-    /* transition: top: 380px .5s;
-    transition: left: 635px .5s; */
-/* transition-duration: 5s, top: 380px; */
-transition-property: top:200px 2s;
-
-    
+    box-shadow: 0px 30px 50px;
+    position:absolute;
+    top: 385px;
 }
+/* button 2 */
+.btn2{
+    position: absolute;
+    top: 200px;
+    left: 650px;
+    width: 150px;
+    height: 80px;
+    background: transparent;
+    color: rgb(0, 255, 213);
+    border-width: 3px;
+    border-style: solid;
+    border-image:linear-gradient(to bottom, rgb(255, 0, 255), rgba(0, 0, 0, 0)) 1 100%;
+    transition-timing-function: ease-in-out;
+    transition: border 2s, color 1.7s;
+    text-shadow: 0px 0px 10px;
+}
+.btn2:hover{
+    border-style: solid;
+    border-image:linear-gradient(to top, rgb(0, 255, 213), rgba(0, 0, 0, 0))1 100%;
+    color: rgb(255, 0, 255);
+}
+/* button 3 */
+.btn3settings{
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+/* .btn3:after{
+    position:absolute;
+    top: 600px;
+    left: 650px;
+    width: 150px;
+    height: 80px;
+    background-image:linear-gradient(to bottom right, rgb(0, 27, 150), rgb(0, 255, 213));
+    border-color:white;  
+    border-width: 3px;
+    color: white;  
+    box-shadow:
+    -7px -7px 20px 0px rgb(0, 255, 213),
+    -4px -4px 5px 0px rgb(0, 255, 213),
+    7px 7px 20px 0px rgb(0, 27, 150),
+    4px 4px 5px 0px rgb(0, 27, 150);
+    transition: all 1s ease;
+}
+.btn3.btn-16:hover:after {
+    left: auto;
+    right: 0;
+    width: 100%;
+  }:hover:after {
+    left: auto;
+    right: 0;
+    width: 100%;
+  }
+.btn3:hover {
+    color: rgb(0, 27, 150);  
+}
+.btn3:active {
+    top: 10px;
+  } */
