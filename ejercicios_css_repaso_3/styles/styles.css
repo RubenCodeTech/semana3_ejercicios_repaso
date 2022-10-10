@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(32, 0, 58);
+}
+.buttondiv{
+position: absolute;
+top: 400px;
+left: 650px;
+}
+.btn{
+background:transparent;
+width: 150px;
+height: 80px;
+border-color: rgb(238, 255, 0);  
+color: rgb(238, 255, 0);  
+}
+.btn:hover{
+    box-shadow: 20px 10px 20px 10px;
+    position: absolute;
+    /* transition: top: 380px .5s;
+    transition: left: 635px .5s; */
+/* transition-duration: 5s, top: 380px; */
+transition-property: top:200px 2s;
+
+    
+}
