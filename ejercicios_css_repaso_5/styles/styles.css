@@ -1,9 +1,65 @@
-.btn:hover~p{
+/* BUTTON 1 */
+.span1{
+    position: absolute;
+    left: 2000px;
+    transition: left 5s; 
+    background-color: blueviolet;
+    color: white;
+}
+.btn1:hover~p>.span1{
     left: 0px;
     transition-timing-function: ease-in-out;
 }
-p{
-    position: absolute;
-    left: 2000px;
-    transition: all 5s;
+/* BUTTON 2 */
+.btn2{
+    position:absolute;
+    top: 100px;
 }
+.span2{
+    position: absolute;
+    top: 130px;
+    left: 8px;
+    background-color: aqua;
+    visibility: hidden;
+    transform: visibility;
+}
+    .btn2:hover~p>.span2{
+        visibility:visible; 
+}
+/* BUTTON 3 */
+.btn3{
+    position: absolute;
+    top:175px
+}
+.span3{
+    position: absolute;
+    top: 210px;
+    left: 8px;
+    background-color: rgb(0, 255, 242);
+    /* transition-delay:initial 3s; */
+}
+.btn3:hover~p>.span3{
+    animation-name: movement;
+    animation-duration: 3s;
+    left: 200px;
+    background-color: rgb(240, 126, 255);
+}
+@keyframes movement {
+    0% {
+        left: 8px;
+        background-color: rgb(0, 255, 242);
+    }
+    99%{
+        background-color: rgb(0, 255, 242); 
+    }
+    100% {
+      left: 200px;
+      background-color: rgb(240, 126, 255);
+    }
+  }
+
+
+
+
+
+  
