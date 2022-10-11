@@ -1,0 +1,9 @@
+.btn:hover~p{
+    left: 0px;
+    transition-timing-function: ease-in-out;
+}
+p{
+    position: absolute;
+    left: 2000px;
+    transition: all 5s;
+}
