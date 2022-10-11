@@ -1,0 +1,22 @@
+section {
+    width: 1000px;
+    height: fit-content;
+    margin: 3rem auto;
+    padding: 1rem 0;
+    background-color: navy;
+
+    /* Your code here: */
+    display: flex;
+}
+
+div {
+    background-color: brown;
+
+    /* Your code here: */
+    border-style: solid;
+    border-color: black;
+    height: 2rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}

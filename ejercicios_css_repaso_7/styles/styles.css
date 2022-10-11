@@ -1,0 +1,32 @@
+section {
+    width: 1000px;
+    height: 500px;
+    margin: 3rem auto;
+    background-color: navy;
+
+    /* Your code here: */
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   column-gap: 400px;
+    
+    
+}
+
+div {
+    /* Your code here: */
+    width: 200px;
+    height: 100px;
+    background-color: brown;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    /* border-style: solid;
+    border-color: black;
+    border-width: 1px; */
+    
+}
+
+/* section>div:nth-child(n+4){
+}  */

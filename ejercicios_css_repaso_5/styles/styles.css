@@ -2,12 +2,12 @@
 .span1{
     position: absolute;
     left: 2000px;
-    transition: left 5s; 
     background-color: blueviolet;
     color: white;
 }
 .btn1:hover~p>.span1{
     left: 0px;
+    transition: left 5s; 
     transition-timing-function: ease-in-out;
 }
 /* BUTTON 2 */
